@@ -23,7 +23,7 @@ public class Conect extends JFrame {
 				try {
 					String url = "jdbc:mysql://localhost:3306/coursejdbc?useSSL=false";
 					String usuario = "developer";
-					String senha = "159357D";
+					String senha = "";
 					Class.forName("com.mysql.jdbc.Driver");
 					Connection con;
 					con = DriverManager.getConnection(url, usuario, senha);
@@ -53,7 +53,7 @@ public class Conect extends JFrame {
 
 					String url = "jdbc:mysql://localhost:3306/coursejdbc?useSSL=false";
 					String usuario = "developer";
-					String senha = "159357D";
+					String senha = "";
 					Class.forName("com.mysql.jdbc.Driver");
 					Connection con;
 					con = DriverManager.getConnection(url, usuario, senha);
